@@ -1,0 +1,57 @@
+﻿.container{
+    background-color:azure;
+    width:80%;
+    height:auto;
+    margin:100px auto 0 auto;
+    text-align:center;
+
+}
+.keyboard{
+    user-select:none;
+}
+.key {
+    width: 50px;
+    height: 50px;
+    background-color: #e2ded9;
+    border-radius: 10px;
+    padding: 10px;
+    margin:5px;
+    display: inline-block;
+    box-shadow:black 2px 2px;
+    font: 40px Impact;
+}
+.key-pressed{
+    box-shadow:none;
+}
+.recordHolder{
+    width:100px;
+    height:100px;
+    display:inline-block;
+}
+#a{
+    border: 2px solid #ff0000;
+}
+#s {
+    border: 2px solid #ff6a00;
+}
+#d {
+    border: 2px solid #ffd800;
+}
+#f {
+    border: 2px solid #b6ff00;
+}
+#g {
+    border: 2px solid #4cff00;
+}
+#h {
+    border: 2px solid #00ff21;
+}
+#j {
+    border: 2px solid #00ff90;
+}
+#k {
+    border: 2px solid #0094ff;
+}
+#l {
+    border: 2px solid #0026ff;
+}
